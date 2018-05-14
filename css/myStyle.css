@@ -14,7 +14,7 @@
 html{
 	font-family: 'Roboto', sans-serif;
 	background: #fff;
-  	color: #666666;
+  color: #666666;
 }
 
 a {
@@ -92,8 +92,6 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(0, 0, 0, 0.8);
 	font-size: .8rem;
 	font-weight: bold;
-	height: 50px;
-	width: 100%;
 }
 
 .navbar-onScrolling .navbar-brand{
@@ -453,8 +451,8 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	margin-top: 60px;
 	margin-bottom: 30px;
-
 }
+
 
 .for-counter-up .counter{
 	color: #18d26e;
@@ -467,17 +465,20 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 20%;
 }
 
-@media only screen and (max-width: 768px){
-	.for-counter-up .counter{
-		margin-left: 24%;
-	}
+@media only screen and (max-width: 600px){
+  .for-counter-up .counter{
+    margin-left: 35%;
+    font-size: 2rem;
+  }
 }
 
-@media only screen and (min-width: 600px){
-	.for-counter-up .counter{
-		margin-left: 35%;
-	}
+@media only screen and (max-width: 768px){
+  .for-counter-up .counter{
+    margin-left: 24%;
+    font-size: 2.5rem;
+  }
 }
+
 
 .for-counter-up .counter-title{
 	margin-right: 10%;
